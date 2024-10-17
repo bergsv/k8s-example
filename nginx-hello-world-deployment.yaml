@@ -2,7 +2,7 @@ apiVersion: apps/v1
 kind: Deployment
 metadata:
   name: none
-  namespace: none  # Hier den gewünschten Namespace einfügen
+  namespace: nginx-example
 spec:
   selector:
     matchLabels:
